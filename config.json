@@ -1,0 +1,7 @@
+{
+    "js": ["node_modules/jquery/dist/jquery.min.js"],
+    "css": [
+        "node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "public/css/main.scss"
+    ]
+}

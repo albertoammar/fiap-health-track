@@ -1,0 +1,22 @@
+html,
+body {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #7a7a7a;
+}
+
+.nav-bar {
+    height: 60px;
+    background: #820ec4;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav-bar-space {
+    height: 60px;
+}
+
+@import "./login.scss";

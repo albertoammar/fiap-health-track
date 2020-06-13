@@ -1,0 +1,44 @@
+.item-page {
+	.image-container {
+		position: relative;
+		img {
+			max-width: 100%;
+		}
+	}
+	
+	.item-info {
+		padding: 20px 10px;
+					span {
+				vertical-align: middle;
+			}
+
+			.icon {
+				font-size: 24px;
+				padding-right: 10px;
+			}
+		
+		p {
+			padding: 5px 0px;
+		}
+		
+		h1 {
+			font-size: 18px;
+		}
+		
+		h2 {
+			margin-top: 10px;
+			font-size: 16px;
+		}
+		
+		h3 {
+			margin-top: 10px;
+			font-size: 14px;
+		}
+		
+		ul {
+			margin: 0px 0px 0px 20px;
+			padding: 0px;
+		}
+	}
+		
+}

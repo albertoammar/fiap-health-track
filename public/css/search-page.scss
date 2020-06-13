@@ -1,0 +1,31 @@
+.search-page {
+	max-width: 700px;
+	margin: 80px auto 0px;
+	padding: 0px 10px;
+	
+	a {
+		color: #222;
+		
+		&:hover {
+			text-decoration: none;
+			color: #222;
+		}
+	}
+	
+	.item-card {
+		margin-bottom: 20px;
+		
+		.card-body {
+			padding: 1rem;
+		}
+		
+		.card-title {
+			margin-bottom: 0.25rem;
+		}
+		
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}

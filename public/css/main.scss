@@ -19,4 +19,9 @@ body {
     height: 60px;
 }
 
+.page {
+	max-width: 700px;
+	margin: 80px auto 0px;
+}
+
 @import "./login.scss";

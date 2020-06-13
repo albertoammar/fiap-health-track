@@ -1,19 +1,18 @@
 @@include('./head.html')
-@@include('./navbar.html')
 
-<div class="login-page">
+<div class="login-page d-flex align-items-center justify-content-center h-100">
 
     <div class="login-container">
-    <form>
+    <form action="home.html" method="get">
         <div class="form-group">
-          <label for="exampleInputEmail1">Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Senha">
         </div>
-        <button type="submit" class="btn btn-primary">Entrar</button>
-      </form>
+        <button type="submit" class="btn btn-md btn-block btn-primary p-3">Entrar</button>
+    </form>
+        <br><br>
+        <a href="register.html"><button type="submit" class="btn btn-md btn-block btn-outline-light p-3">Não possui conta? Criar conta</button></a>
     </div>
 </div>

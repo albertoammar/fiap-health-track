@@ -13,7 +13,7 @@ body {
     left: 0px;
     width: 100%;
     z-index: 100;
-}
+}   
 
 .nav-bar-space {
     height: 60px;
@@ -21,7 +21,20 @@ body {
 
 .page {
 	max-width: 700px;
-	margin: 80px auto 0px;
+	margin: 10px auto 0px;
+}
+
+.logo-text {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 @import "./login.scss";
+@import "./register.scss";
+@import "./home.scss";
+@import "./search-page.scss";
+@import "./item-page.scss";
+@import "./login.scss";
+@import "./perfil-page.scss";

@@ -1,10 +1,10 @@
 .item-page {
 	.image-container {
 		position: relative;
-
-
+		img {
+			max-width: 100%;
+		}
 	}
-	
 	
 	.item-info {
 		padding: 20px 10px;
